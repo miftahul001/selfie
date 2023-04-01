@@ -6,29 +6,4 @@
 	padding: 0;
 }
 
-.metro-path-detail {
-	flex: 1 1 0%;
-	border: 2px solid #00444D;
-	border-radius: 5px;
-	display: grid;
-	grid-template-columns: 20% 6% 20% 6% 20% 6% 20%;
-	justify-content: center;
-}
-.metro-path-detail > div {
-	margin-top: 1px;
-	text-align: center;
-}
-.metro-path-detail > img {
-	margin-top: 1vmin;
-	width: 75%;
-}
-.metro-path-detail > div > img {
-	width: 50%;
-}
-.metro-path-detail > div > div {
-	font-size: 1.2vmin;
-	margin-top: -1.2vmin;
-}
-.metro-path-detail > div > div:last-child {
-	margin-top: -.3vmin;
-}
+.action1 > input::placeholder{ text-align: center; }

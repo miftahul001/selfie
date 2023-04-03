@@ -5,5 +5,35 @@
 	margin: 0;
 	padding: 0;
 }
+.technical-data {
+	display: flex;
+	flex-direction: column;
+}
+.technical-data > div {
+	display: flex;
+	padding: .3vmin;
+	gap: .1vmin;
+}
+.technical-data > div > img {
+	width: 3vmin;
+	height: 3vmin;
+}
+.technical-data > div > div {
+	flex: 1 1 0%;
+	display: grid;
+	grid-template-columns: min-content .5vmin auto;
+	padding: .2vmin;
+	font-size: 1.2vmin;
+	gap: 0 .3vmin;
+}
+.technical-data > div > div > div {
+	font-size: 1.2vmin;
+}
+.technical-data > div > div > div:nth-child(3n+1) {
+	white-space: nowrap;
+}
+.technical-data > div > div > div:nth-child(1), .technical-data > div > div > div:nth-child(3), .technical-data > div > div > div:nth-child(4) {
+	font-weight: bold;
+}
 
 .action1 > input::placeholder{ text-align: center; }

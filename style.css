@@ -23,13 +23,13 @@
 	display: grid;
 	grid-template-columns: min-content .5vmin auto;
 	padding: .2vmin;
-	font-size: 1.2vmin;
 	gap: 0 .3vmin;
 }
 .technical-data > div > div > div {
-	font-size: 1.2vmin;
+	font-size: 1.3vmin;
 }
 .technical-data > div > div > div:nth-child(3n+1) {
+	padding-right: .5vmin;
 	white-space: nowrap;
 }
 .technical-data > div > div > div:nth-child(1), .technical-data > div > div > div:nth-child(3), .technical-data > div > div > div:nth-child(4) {
